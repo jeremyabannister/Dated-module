@@ -45,6 +45,7 @@ extension Dated {
     }
     
     ///
+    @available(iOS 13.0, macOS 10.15.0, watchOS 6.0.0, tvOS 13.0.0, *)
     public func map
         <NewValue>
         (_ transform: (Value)async throws->NewValue)
